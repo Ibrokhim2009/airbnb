@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@media screen and (top: 200px) and (top: 500px) {
+  .navbar-animated{
+    height: 800px;
+  }
+}
