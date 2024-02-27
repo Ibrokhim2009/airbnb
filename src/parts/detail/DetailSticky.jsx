@@ -5,7 +5,7 @@ import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
 function DetailSticky({ data }) {
     const oralyPrice = data.price * 5
     return (
-        <div className='w-[372px] sticky mt-[40px] top-[0px] left-[800px] h-[432px] p-[24px] bg-[white] shadow-[1px_1px_15px_#8080808d] rounded-xl'>
+        <div className='w-[372px] sticky mt-[40px] top-[30px] left-[800px] h-[432px] p-[24px] bg-[white] shadow-[1px_1px_15px_#8080808d] rounded-xl'>
             <h1 className='flex mb-[24px] items-baseline gap-1 font-[500] text-[#222222] text-[22px]'>{data.price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ")}Р <p className='text-[16px] text-[#222222] font-[400]'>ночь</p></h1>
             <div className='border-[1px] border-solid border-[gray] h-[112px] w-[100%] rounded-[8px]'>
                 <div className='flex items-center border-b-[1px] border-solid border-[gray]'>
