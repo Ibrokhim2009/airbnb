@@ -10,7 +10,6 @@ function App() {
   const [isScrolled, setIsScrolled] = useState(false);
   return (
     <Context.Provider value={{ isScrolled, setIsScrolled }}>
-      <Navbar />
       <Routes>
         <Route element={<Layout />} path='/' />
         <Route element={<Detail />} path='detail/:id' />
